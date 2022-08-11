@@ -1,0 +1,18 @@
+# Django Related Files
+*/migrations/*
+!*/migrations/__init__.py
+
+# Project Releted Files
+static_deploy/*
+!static_deploy/dir.sample
+db.sqlite3
+
+# IDE Related Files
+.idea/
+
+# Python Related Files
+*.pyc
+*/__pycache__/
+
+# Environment Related Files
+venv/
